@@ -1,20 +1,21 @@
-# HELLO !!! I am Kavya, happy to meet you !! 
+# Used Car Price Prediction
 
-I'm a B.Tech Graduate and a Data Science enthusiast from Amity University, Noida:
+This repository contains the code and data for predicting the price of used cars using various regression models including Linear Regression, RandomForestRegressor, DecisionTreeRegressor, Ridge, and Lasso.
 
-I'm passionate about data analysis and ML development, I translate data into valuable and comprehensible insights. My goal is to improve results, make the right decisions, and save costs. I am experienced in machine learning, supervised and unsupervised algorithms, and use data visualization techniques to present the results. I use SQL, Python, and PowerBI for my data projects.
+Description
 
-🔭 I’m currently working on 
+This project aims to predict the selling price of used cars based on several features. The models implemented include Linear Regression, RandomForestRegressor, DecisionTreeRegressor, Ridge, and Lasso. By training these models on historical car data, we aim to provide accurate predictions for future car prices.
 
-👯 I’m looking to collaborate on Web Scraping
+Features
 
-📫 How to reach me kavya.sharma32720@@gmail.com
+The dataset includes the following features:
 
-⚡ Trying to learn it all
-
-Connect with me:
-
-www.linkedin.com/in/kavya-sharma32720
-
-
-
+Car_Name: Name of the car (object)
+Year: Year of manufacture (int64)
+Selling_Price: Price at which the car is being sold (float64)
+Present_Price: Current ex-showroom price of the car (float64)
+Kms_Driven: Number of kilometers the car has driven (int64)
+Fuel_Type: Type of fuel used by the car (object)
+Seller_Type: Type of seller (object)
+Transmission: Transmission type (object)
+Owner: Number of previous owners (int64)
